@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.primary-button {
+	@apply bg-primary text-white px-5 py-1.5 text-base md:text-lg md:px-6 md:py-2 rounded-full hover:bg-primary-dark transition duration-300 inline-block;
+}
+
+.blob {
+	animation: blob 7s infinite;
+}
+
+@keyframes blob {
+	0% {
+		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+	}
+	50% {
+		border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+	}
+	100% {
+		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+	}
+}
+
+.phone-input {
+	letter-spacing: 0.5px;
+}
+
+.youtube-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 1rem;
+}
+
+.testimonial-slider .swiper-pagination-bullet-active {
+	background-color: #7979ff;
+}

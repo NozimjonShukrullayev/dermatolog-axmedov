@@ -1,0 +1,8 @@
+export { default as DoctorImg } from './doctor.png'
+export { default as GalleryImgFive } from './gallery-img-five.jpg'
+export { default as GalleryImgFour } from './gallery-img-four.jpg'
+export { default as GalleryImgOne } from './gallery-img-one.jpg'
+export { default as GalleryImgThree } from './gallery-img-three.jpg'
+export { default as GalleryImgTwo } from './gallery-img-two.jpg'
+export { default as JustDoctorImg } from './just-doctor.png'
+export { default as Logo } from './logo.png'
