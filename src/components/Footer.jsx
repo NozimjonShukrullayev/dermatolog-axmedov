@@ -8,7 +8,7 @@ function Footer() {
 			<div className='container mx-auto px-6 relative z-10'>
 				<div className='grid md:grid-cols-4 gap-12'>
 					<div className='col-span-2'>
-						<a href='/' className='flex items-center mb-6'>
+						<a href='/' className='mb-6 inline-block'>
 							<img
 								src={Logo}
 								alt='Dermatolog Axmedov'

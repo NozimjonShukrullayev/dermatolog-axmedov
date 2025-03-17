@@ -3,7 +3,7 @@ import { Logo } from '../assets'
 
 function Header() {
 	return (
-		<header className='bg-white shadow-lg'>
+		<header className='bg-white shadow-lg sticky top-0 z-50'>
 			<nav className='container mx-auto px-6 py-1'>
 				<div className='flex items-center justify-between'>
 					{/* logo */}
