@@ -21,7 +21,7 @@ function Hero() {
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.8 }}
 				>
-					<h1 className='text-4xl md:text-5xl/tight lg:text-6xl/tight font-bold text-gray-800 mb-6'>
+					<h1 className='text-3xl md:text-4xl/tight lg:text-4xl/tight font-bold text-gray-800 mb-6'>
 						<span className='text-primary'>Husnbuzarlardan xalos bo‘ling</span>{' '}
 						va ishonchingizni qaytaring!
 					</h1>
