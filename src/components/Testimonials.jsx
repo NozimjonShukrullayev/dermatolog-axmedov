@@ -35,9 +35,7 @@ function Testimonials() {
 					{allTestimonials.map(testimonial => (
 						<SwiperSlide key={testimonial.id}>
 							<div className='bg-white p-8 mb-14 rounded-2xl shadow-lg h-60 md:h-56'>
-								<p className='text-gray-600 mb-4 text-base'>
-									{testimonial.text}
-								</p>
+								<p className='text-gray-600 mb-4 text-lg'>{testimonial.text}</p>
 								<div className='flex items-center'>
 									<div className='w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center'>
 										{testimonial.name[0]}
