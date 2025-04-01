@@ -21,11 +21,11 @@ function Hero() {
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.8 }}
 				>
-					<h1 className='text-3xl md:text-3xl/tight lg:text-5xl/tight font-bold text-gray-800 mb-6'>
+					<h1 className='text-2xl md:text-3xl/tight lg:text-5xl/tight font-bold text-gray-800 mb-6'>
 						<span className='text-primary'>Husnbuzarlardan xalos bo‘ling</span>{' '}
 						va ishonchingizni qaytaring!
 					</h1>
-					<p className='text-lg md:text-[18px] lg:text-xl font-normal text-gray-500 mb-8'>
+					<p className='text-sm md:text-[18px] lg:text-xl font-normal text-gray-500 mb-8'>
 						Husnbuzarlar va teri muammolari sizni bezovta qilyaptimi? Bizning
 						tajribali dermatologimiz husnbuzarlarning sabablarini aniqlab,
 						samarali davolash usullarini taklif qiladi. Teringizni sog‘lom va
