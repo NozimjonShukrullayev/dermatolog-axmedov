@@ -42,13 +42,15 @@ function App() {
 					<ToastContainer position='top-center' />
 					<div className='min-h-screen bg-gradient-to-b from-primary/5 to-white'>
 						<Header />
-						<Hero />
-						<Results />
-						<Services />
-						<Gallery />
-						<YoutubeVideos />
-						<Testimonials />
-						<Contact />
+						<main className='main'>
+							<Hero />
+							<Results />
+							<Services />
+							<Gallery />
+							<YoutubeVideos />
+							<Testimonials />
+							<Contact />
+						</main>
 						<Footer />
 						<Fragment>
 							<ScrollTopBtn />
