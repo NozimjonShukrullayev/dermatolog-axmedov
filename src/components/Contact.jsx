@@ -80,6 +80,7 @@ export default function Contact() {
 									mask='_'
 									id='phone'
 									name='phone'
+									allowEmptyFormatting
 									value={phone}
 									onValueChange={({ value }) => setPhone(value)}
 									required
